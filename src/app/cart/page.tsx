@@ -19,7 +19,7 @@ export default function CartPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14 md:py-20">
       <p className="eyebrow mb-3">Your bag</p>
-      <h1 className="font-display text-5xl md:text-6xl font-light">Review your order</h1>
+      <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight">Review your order</h1>
 
       {hydrated && items.length === 0 && (
         <div className="mt-16 rounded-xl bg-amethyst-mist p-12 text-center">

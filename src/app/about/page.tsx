@@ -26,7 +26,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28 grid gap-12 lg:grid-cols-2 lg:items-center">
           <Reveal>
             <p className="eyebrow mb-4">Our story · {site.chineseName}</p>
-            <h1 className="font-display text-5xl md:text-7xl font-light leading-[0.98] text-ink">
+            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight text-ink">
               Baked with <em className="italic">heart</em>, in the heartlands
             </h1>
             <p className="mt-7 text-lg text-muted leading-relaxed max-w-xl">
@@ -52,8 +52,8 @@ export default function AboutPage() {
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((v, i) => (
               <Reveal key={v.title} from="left" delay={queue(i)} className="rounded-xl border border-line p-7">
-                <p className="font-display text-3xl text-amethyst">0{i + 1}</p>
-                <h3 className="font-display text-2xl mt-4">{v.title}</h3>
+                <p className="font-display text-2xl text-amethyst">0{i + 1}</p>
+                <h3 className="font-display text-xl mt-4">{v.title}</h3>
                 <p className="mt-3 text-muted leading-relaxed">{v.text}</p>
               </Reveal>
             ))}
@@ -67,7 +67,7 @@ export default function AboutPage() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-[1fr_1.2fr] items-center text-white">
           <Reveal>
             <p className="eyebrow !text-white/75 mb-4">Festive seasons</p>
-            <h2 className="font-display text-4xl md:text-6xl font-light leading-[1.02]">From our oven to your reunion table</h2>
+            <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight">From our oven to your reunion table</h2>
             <p className="mt-6 text-white/80 text-lg leading-relaxed">
               You’ll find us at Takashimaya and shopping-mall fairs every Chinese New Year and Mid-Autumn, handing out
               samples of the pineapple balls and crispy-skin mooncakes we’ve become known for.
@@ -90,7 +90,7 @@ export default function AboutPage() {
           <div className="mt-14 grid gap-6 md:grid-cols-2">
             {site.outlets.map((o, i) => (
               <Reveal key={o.name} from="left" delay={queue(i, 2)} className="rounded-xl bg-amethyst-mist p-8 md:p-10">
-                <h3 className="font-display text-3xl">{o.name}</h3>
+                <h3 className="font-display text-2xl">{o.name}</h3>
                 <p className="mt-4 flex gap-3 text-ink/80"><MapPin size={18} className="shrink-0 mt-0.5 text-amethyst" /><span>{o.address}<br />{o.postal}</span></p>
                 <p className="mt-3 flex gap-3 text-ink/80"><Phone size={18} className="shrink-0 mt-0.5 text-amethyst" /><span>{site.phone} · {site.mobile}</span></p>
                 <p className="mt-3 text-sm text-muted">{o.hours}</p>

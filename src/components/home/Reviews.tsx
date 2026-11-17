@@ -52,7 +52,7 @@ export default function Reviews() {
       <Reveal className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div>
           <p className="eyebrow mb-4">Loved by Singapore</p>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-light leading-[1.05]">
+          <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight">
             What our customers <em className="italic">are saying</em>
           </h2>
         </div>

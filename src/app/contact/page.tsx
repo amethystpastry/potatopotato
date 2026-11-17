@@ -27,7 +27,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28 grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
           <Reveal>
             <p className="eyebrow mb-4">Contact us · {site.chineseName}</p>
-            <h1 className="font-display text-5xl md:text-7xl font-light leading-[0.98] text-ink">
+            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight text-ink">
               Let’s plan something <em className="italic">sweet</em>
             </h1>
             <p className="mt-7 text-lg text-muted leading-relaxed max-w-xl">
@@ -50,7 +50,7 @@ export default function ContactPage() {
           <div className="space-y-10">
             <Reveal>
               <p className="eyebrow mb-4">Reach us</p>
-              <h2 className="font-display text-4xl md:text-5xl font-light leading-[1.05] text-ink">We’re a message away</h2>
+              <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight text-ink">We’re a message away</h2>
             </Reveal>
             <Reveal delay={0.05} className="space-y-5 text-ink/85">
               <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noreferrer" className="flex gap-4 items-start group">
@@ -73,7 +73,7 @@ export default function ContactPage() {
             <div className="grid gap-4 sm:grid-cols-2">
               {site.outlets.map((o, i) => (
                 <Reveal key={o.name} from="left" delay={queue(i, 2)} className="rounded-xl bg-amethyst-mist p-7">
-                  <h3 className="font-display text-2xl">{o.name}</h3>
+                  <h3 className="font-display text-xl">{o.name}</h3>
                   <p className="mt-3 flex gap-3 text-sm text-ink/80"><MapPin size={16} className="shrink-0 mt-0.5 text-amethyst" /><span>{o.address}<br />{o.postal}</span></p>
                   <p className="mt-2 flex gap-3 text-sm text-muted"><Clock size={16} className="shrink-0 mt-0.5 text-amethyst" />{o.hours}</p>
                   <a href={site.googleMapsUrl} target="_blank" rel="noreferrer" className="mt-5 inline-block text-[0.7rem] tracking-[0.22em] uppercase text-amethyst hover:underline">Get directions</a>
@@ -84,7 +84,7 @@ export default function ContactPage() {
 
           <Reveal delay={0.1} className="rounded-xl border border-line p-7 md:p-10">
             <p className="eyebrow mb-3">Enquiry form</p>
-            <h2 className="font-display text-3xl md:text-4xl font-light text-ink">Tell us about your occasion</h2>
+            <h2 className="font-display text-2xl md:text-3xl leading-tight text-ink">Tell us about your occasion</h2>
             <p className="mt-3 text-muted text-sm leading-relaxed">
               We never ask for payment details here. Orders are paid securely through our checkout only.
             </p>
@@ -99,7 +99,7 @@ export default function ContactPage() {
           <div className="mt-14 grid gap-6 md:grid-cols-2">
             {faqs.map((f, i) => (
               <Reveal key={f.q} from="left" delay={queue(i, 2)} className="rounded-xl bg-white p-8">
-                <h3 className="font-display text-2xl">{f.q}</h3>
+                <h3 className="font-display text-xl">{f.q}</h3>
                 <p className="mt-3 text-muted leading-relaxed">{f.a}</p>
               </Reveal>
             ))}

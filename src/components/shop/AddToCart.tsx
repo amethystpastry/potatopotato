@@ -29,7 +29,7 @@ export default function AddToCart({ product }: { product: Product }) {
                 key={v.id}
                 type="button"
                 onClick={() => setVariantId(v.id)}
-                className={`rounded-xl border px-4 py-3 text-left transition-colors ${
+                className={`rounded-md border px-4 py-3 text-left transition-colors ${
                   v.id === variantId ? "border-amethyst bg-amethyst-soft text-amethyst-deep" : "border-line hover:border-amethyst/50"
                 }`}
               >
@@ -52,7 +52,7 @@ export default function AddToCart({ product }: { product: Product }) {
             value={message}
             onChange={(e) => setMessage(e.target.value.slice(0, 60))}
             placeholder="Happy 4th Birthday Louise"
-            className="w-full rounded-xl border border-line px-4 py-3 text-sm outline-none focus:border-amethyst transition-colors bg-white"
+            className="w-full rounded-md border border-line px-4 py-3 text-sm outline-none focus:border-amethyst transition-colors bg-white"
           />
         </div>
       )}

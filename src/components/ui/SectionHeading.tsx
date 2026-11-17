@@ -17,7 +17,7 @@ export default function SectionHeading({
     <Reveal className={`max-w-2xl ${align === "center" ? "mx-auto text-center" : ""}`}>
       {eyebrow && <p className={`eyebrow mb-4 ${light ? "!text-white/70" : ""}`}>{eyebrow}</p>}
       <h2
-        className={`font-display text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-light ${
+        className={`font-display text-2xl md:text-3xl lg:text-4xl leading-tight ${
           light ? "text-white" : "text-ink"
         }`}
       >

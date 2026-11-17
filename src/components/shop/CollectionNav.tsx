@@ -26,7 +26,7 @@ export default function CollectionNav({ ids }: { ids: Collection[] }) {
           <a
             key={id}
             href={`#${id}`}
-            className={`shrink-0 rounded-full px-4 py-2 text-[0.68rem] tracking-[0.18em] uppercase transition-colors ${
+            className={`shrink-0 rounded-md px-4 py-2 text-[0.68rem] tracking-[0.18em] uppercase transition-colors ${
               active === id ? "bg-amethyst text-white" : "bg-amethyst-mist text-ink/70 hover:bg-amethyst-soft"
             }`}
           >

@@ -25,7 +25,7 @@ export default async function SuccessPage({ searchParams }: { searchParams: Prom
       <ClearCart />
       <CheckCircle2 size={56} strokeWidth={1.2} className="mx-auto text-amethyst" />
       <p className="eyebrow mt-6 mb-3">Thank you{summary?.name ? `, ${summary.name.split(" ")[0]}` : ""}</p>
-      <h1 className="font-display text-5xl md:text-6xl font-light">Your order is in the oven</h1>
+      <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight">Your order is in the oven</h1>
       <p className="mt-6 text-muted text-lg leading-relaxed">
         We’ve received your order{summary?.total ? ` of ${money(summary.total)}` : ""}
         {summary?.email ? ` and sent a receipt to ${summary.email}` : ""}. Our team will WhatsApp you to confirm the

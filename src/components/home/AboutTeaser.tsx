@@ -23,7 +23,7 @@ export default function AboutTeaser() {
 
         <Reveal delay={0.1} className="lg:pl-8">
           <p className="eyebrow mb-4">About us · {site.chineseName}</p>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-light leading-[1.05] text-ink">
+          <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight text-ink">
             A neighbourhood bakery with a <em className="italic">big heart</em>
           </h2>
           <p className="mt-6 text-muted text-lg leading-relaxed">
@@ -37,7 +37,7 @@ export default function AboutTeaser() {
           <div className="mt-10 grid grid-cols-3 gap-4 md:gap-6 border-y border-amethyst/15 py-7">
             {stats.map((s) => (
               <div key={s.label}>
-                <p className="font-sans text-3xl sm:text-4xl md:text-5xl font-medium tracking-tight text-amethyst leading-none">
+                <p className="font-sans text-2xl sm:text-3xl md:text-4xl font-medium tracking-tight text-amethyst leading-none">
                   <CountUp to={s.to} suffix={s.suffix} />
                 </p>
                 <p className="mt-3 text-[0.65rem] sm:text-xs tracking-[0.18em] uppercase text-muted">{s.label}</p>

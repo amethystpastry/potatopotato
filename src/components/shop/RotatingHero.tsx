@@ -103,7 +103,7 @@ export default function RotatingHero({
               </motion.p>
               <motion.h1
                 variants={line(0.08)}
-                className={`font-display text-[2.6rem] leading-[1] sm:text-6xl md:text-7xl lg:text-[5.5rem] font-light ${
+                className={`font-display text-3xl md:text-4xl lg:text-5xl leading-tight ${
                   dark ? "text-white" : "text-amethyst-deep"
                 }`}
               >
@@ -128,7 +128,7 @@ export default function RotatingHero({
               href={whatsappHref}
               target="_blank"
               rel="noreferrer"
-              className="btn bg-[#25D366] text-white shadow-[0_12px_30px_-10px_rgba(37,211,102,0.7)] hover:bg-[#1EBE5A]"
+              className="btn bg-[#25D366] text-white hover:bg-[#1EBE5A]"
             >
               WhatsApp us
             </a>

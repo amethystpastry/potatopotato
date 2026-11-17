@@ -32,7 +32,7 @@ export default function ShopHero({
       <div className={`absolute inset-0 bg-gradient-to-t ${dark ? "from-black/60 via-black/10" : "from-white/70 via-white/0"} to-transparent`} />
       <Reveal className="relative mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 pb-14 md:pb-20 pt-32">
         <p className={`eyebrow mb-4 ${dark ? "!text-white/80" : ""}`}>{eyebrow}</p>
-        <h1 className={`font-display text-5xl md:text-7xl lg:text-8xl font-light leading-[0.95] ${dark ? "text-white" : "text-amethyst-deep"}`}>{title}</h1>
+        <h1 className={`font-display text-3xl md:text-4xl lg:text-5xl leading-tight ${dark ? "text-white" : "text-amethyst-deep"}`}>{title}</h1>
         <p className={`mt-5 max-w-lg text-lg ${dark ? "text-white/80" : "text-ink/70"}`}>{sub}</p>
       </Reveal>
     </section>

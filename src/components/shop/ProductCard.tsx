@@ -24,7 +24,7 @@ export default function ProductCard({ product, priority = false }: { product: Pr
           />
         </div>
         {product.badge && (
-          <span className="absolute top-4 left-4 rounded-full bg-white/90 backdrop-blur px-3 py-1 text-[0.62rem] tracking-[0.2em] uppercase text-amethyst-deep">
+          <span className="absolute top-4 left-4 rounded-sm bg-white/90 backdrop-blur px-3 py-1 text-[0.62rem] tracking-[0.2em] uppercase text-amethyst-deep">
             {product.badge}
           </span>
         )}
@@ -35,7 +35,7 @@ export default function ProductCard({ product, priority = false }: { product: Pr
               add({ slug: product.slug, variantId: product.variants[0].id, qty: 1 });
             }}
             aria-label={`Add ${product.name} to cart`}
-            className="absolute bottom-4 right-4 h-11 w-11 rounded-full bg-amethyst text-white flex items-center justify-center shadow-lg opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 hover:bg-amethyst-deep"
+            className="absolute bottom-4 right-4 h-11 w-11 rounded-md bg-amethyst text-white flex items-center justify-center shadow-lg opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 hover:bg-amethyst-deep"
           >
             <Plus size={18} />
           </button>
@@ -44,7 +44,7 @@ export default function ProductCard({ product, priority = false }: { product: Pr
       <div className="mt-4 flex items-start justify-between gap-3">
         <div>
           <p className="text-[0.62rem] tracking-[0.25em] uppercase text-amethyst/80">{collections[product.collection].label}</p>
-          <h3 className="font-display text-xl md:text-[1.4rem] leading-tight mt-1">
+          <h3 className="font-display text-base md:text-lg leading-snug mt-1">
             <Link href={`/product/${product.slug}`} className="hover:text-amethyst transition-colors">{product.name}</Link>
           </h3>
         </div>

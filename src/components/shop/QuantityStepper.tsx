@@ -13,7 +13,7 @@ export default function QuantityStepper({
 }) {
   const h = size === "sm" ? "h-9" : "h-12";
   return (
-    <div className={`inline-flex items-center rounded-full border border-line ${h}`}>
+    <div className={`inline-flex items-center rounded-md border border-line ${h}`}>
       <button type="button" aria-label="Decrease" onClick={() => onChange(value - 1)} className="px-3 h-full text-ink/70 hover:text-amethyst">
         <Minus size={14} />
       </button>

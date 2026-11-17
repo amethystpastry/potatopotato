@@ -12,7 +12,7 @@ export default function CollectionSection({ id, first = false }: { id: Collectio
       <Reveal className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
         <div>
           <p className="eyebrow mb-3">{c.category === "cakes" ? "Cakes" : "Pastries"} · {items.length} designs</p>
-          <h2 className="font-display text-4xl md:text-5xl font-light leading-[1.05]">{c.label}</h2>
+          <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight">{c.label}</h2>
         </div>
         <p className="text-muted max-w-md md:text-right">{c.blurb}</p>
       </Reveal>

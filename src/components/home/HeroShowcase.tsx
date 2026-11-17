@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, type MotionValue } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { site } from "@/data/site";
 
@@ -21,58 +21,88 @@ const boxes: Box[] = [
 
 const SWITCH_START = 0.35;
 const SWITCH_END = 0.6;
+const MID = (SWITCH_START + SWITCH_END) / 2;
 const ease = [0.22, 1, 0.36, 1] as const;
+const greenBtn = "btn btn-compact bg-[#25D366] text-white hover:bg-[#1EBE5A]";
 
 function PastryCluster() {
   return (
-    <div className="absolute inset-0 flex items-center justify-center" style={{ transform: "translateY(5vh)" }}>
-      <div className="relative w-[min(92vw,52vh)] aspect-[1/1.05] md:w-[min(76vw,74vh,960px)] md:aspect-[1.45/1]">
-        {boxes.map((b, i) => (
-          <motion.div
-            key={b.src}
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2 + i * 0.14, ease }}
-            className="absolute"
-            style={{ left: b.left, top: b.top, width: b.width, zIndex: b.z }}
-          >
-            <Image
-              src={b.src}
-              alt={b.alt}
-              width={1254}
-              height={1254}
-              priority
-              sizes="(max-width: 768px) 45vw, 400px"
-              className="w-full h-auto drop-shadow-[0_40px_50px_rgba(40,0,10,0.55)]"
-              draggable={false}
-            />
-          </motion.div>
-        ))}
-      </div>
+    <div className="relative aspect-[1.15/1] w-[min(84vw,40svh)] md:w-[min(100%,74svh,640px)]">
+      {boxes.map((b, i) => (
+        <motion.div
+          key={b.src}
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.2 + i * 0.14, ease }}
+          className="absolute"
+          style={{ left: b.left, top: b.top, width: b.width, zIndex: b.z }}
+        >
+          <Image
+            src={b.src}
+            alt={b.alt}
+            width={1254}
+            height={1254}
+            priority
+            sizes="(max-width: 768px) 40vw, 300px"
+            className="w-full h-auto drop-shadow-[0_40px_50px_rgba(40,0,10,0.55)]"
+            draggable={false}
+          />
+        </motion.div>
+      ))}
     </div>
   );
 }
 
 function CakeTrio() {
   return (
-    <div className="absolute inset-0 flex items-center justify-center px-4" style={{ transform: "translateY(4vh)" }}>
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.3, ease }}
-        className="w-[min(96vw,110vh)] md:w-[min(80vw,96vh,1100px)]"
-      >
-        <Image
-          src="/images/hero/celebration-cakes-trio.webp"
-          alt="Three celebration cakes: blue floral drip, white chocolate rose drip and a red petal gown cake"
-          width={1672}
-          height={941}
-          sizes="(max-width: 768px) 96vw, 1100px"
-          className="w-full h-auto drop-shadow-[0_40px_50px_rgba(20,30,60,0.35)]"
-          draggable={false}
-        />
-      </motion.div>
+    <div className="w-[min(94vw,62svh)] md:w-[min(100%,100svh,760px)]">
+      <Image
+        src="/images/hero/celebration-cakes-trio.webp"
+        alt="Three celebration cakes: blue floral drip, white chocolate rose drip and a red petal gown cake"
+        width={1672}
+        height={941}
+        sizes="(max-width: 768px) 94vw, 760px"
+        className="w-full h-auto drop-shadow-[0_40px_50px_rgba(20,30,60,0.35)]"
+        draggable={false}
+      />
     </div>
+  );
+}
+
+type StageProps = {
+  opacity: MotionValue<number>;
+  y: MotionValue<number>;
+  pointer: MotionValue<string>;
+  light: boolean;
+  eyebrow: string;
+  title: string;
+  sub: string;
+  href: string;
+  cta: string;
+  visual: React.ReactNode;
+  heading: "h1" | "h2";
+};
+
+function Stage({ opacity, y, pointer, light, eyebrow, title, sub, href, cta, visual, heading: H }: StageProps) {
+  return (
+    <motion.div style={{ opacity, pointerEvents: pointer }} className="absolute inset-0 z-10">
+      <div className="h-full mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 pt-24 pb-16 md:pt-20 md:pb-24 flex flex-col md:grid md:grid-cols-[0.9fr_1.1fr] md:items-center gap-6 md:gap-10">
+        <div className="text-center md:text-left max-w-md mx-auto md:mx-0">
+          <p className={`eyebrow mb-3 md:mb-4 ${light ? "!text-white/80" : "!text-amethyst-deep/70"}`}>{eyebrow}</p>
+          <H className={`font-display text-3xl md:text-4xl lg:text-5xl leading-tight ${light ? "text-white" : "text-amethyst-deep"}`}>
+            {title}
+          </H>
+          <p className={`mt-3 md:mt-5 text-sm md:text-base leading-relaxed ${light ? "text-white/85" : "text-ink/75"}`}>{sub}</p>
+          <div className="mt-5 md:mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
+            <Link href={href} className={`btn btn-compact ${light ? "btn-white" : "btn-primary"}`}>{cta}</Link>
+            <a href={whatsappHref} target="_blank" rel="noreferrer" className={greenBtn}>WhatsApp us</a>
+          </div>
+        </div>
+        <motion.div style={{ y }} className="flex-1 min-h-0 flex items-center justify-center">
+          {visual}
+        </motion.div>
+      </div>
+    </motion.div>
   );
 }
 
@@ -81,15 +111,18 @@ export default function HeroShowcase() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
 
   const pastryOpacity = useTransform(scrollYProgress, [SWITCH_START, SWITCH_END], [1, 0]);
-  const pastryY = useTransform(scrollYProgress, [SWITCH_START, SWITCH_END], [0, -80]);
+  const pastryY = useTransform(scrollYProgress, [SWITCH_START, SWITCH_END], [0, -60]);
   const cakeOpacity = useTransform(scrollYProgress, [SWITCH_START, SWITCH_END], [0, 1]);
-  const cakeY = useTransform(scrollYProgress, [SWITCH_START, SWITCH_END], [80, 0]);
+  const cakeY = useTransform(scrollYProgress, [SWITCH_START, SWITCH_END], [60, 0]);
   const bgCake = useTransform(scrollYProgress, [SWITCH_START - 0.05, SWITCH_END], [0, 1]);
   const hintOpacity = useTransform(scrollYProgress, [0, 0.12], [1, 0]);
+  // Only the visible stage takes clicks.
+  const pastryPointer = useTransform(scrollYProgress, (v): string => (v < MID ? "auto" : "none"));
+  const cakePointer = useTransform(scrollYProgress, (v): string => (v >= MID ? "auto" : "none"));
 
   return (
     <section ref={ref} className="relative" style={{ height: "220vh" }}>
-      <div className="sticky top-0 h-screen overflow-hidden">
+      <div className="sticky top-0 h-[100svh] overflow-hidden">
         {/* Backgrounds */}
         <div className="absolute inset-0">
           <Image
@@ -102,56 +135,43 @@ export default function HeroShowcase() {
           />
         </div>
         <motion.div style={{ opacity: bgCake }} className="absolute inset-0">
-          <Image
-            src="/images/hero/powder-blue-bakery-hero-backdrop-1.jpg"
-            alt=""
-            fill
-            sizes="100vw"
-            className="object-cover"
-          />
+          <Image src="/images/hero/powder-blue-bakery-hero-backdrop-1.jpg" alt="" fill sizes="100vw" className="object-cover" />
         </motion.div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-black/10" />
+        <motion.div
+          style={{ opacity: pastryOpacity }}
+          className="absolute inset-0 bg-gradient-to-r from-black/35 via-black/10 to-transparent"
+        />
 
-        {/* Static showcases */}
-        <motion.div style={{ opacity: pastryOpacity, y: pastryY }} className="absolute inset-0">
-          <PastryCluster />
-        </motion.div>
-        <motion.div style={{ opacity: cakeOpacity, y: cakeY }} className="absolute inset-0">
-          <CakeTrio />
-        </motion.div>
-
-        {/* Copy */}
-        <div className="absolute inset-x-0 top-[12vh] md:top-[13vh] text-center px-4 pointer-events-none z-10">
-          <motion.div style={{ opacity: pastryOpacity }} className="absolute inset-x-0">
-            <h1 className="font-display text-white text-[2.6rem] sm:text-6xl md:text-7xl lg:text-8xl font-light leading-[0.95]">
-              Festive <em className="italic font-light">Pastries</em>
-            </h1>
-          </motion.div>
-          <motion.div style={{ opacity: cakeOpacity }} className="absolute inset-x-0">
-            <p className="eyebrow !text-amethyst-deep/70 mb-3">Handcrafted · Made to order</p>
-            <h2 className="font-display text-amethyst-deep text-[2.6rem] sm:text-6xl md:text-7xl lg:text-8xl font-light leading-[0.95]">
-              Celebration <em className="italic font-light">Cakes</em>
-            </h2>
-          </motion.div>
-        </div>
-
-        {/* CTAs */}
-        <div className="absolute inset-x-0 bottom-[15vh] md:bottom-[8vh] flex flex-col items-center gap-5 px-4 z-10">
-          <div className="relative h-14 w-full flex justify-center">
-            <motion.div style={{ opacity: pastryOpacity }} className="absolute flex gap-3">
-              <Link href="/pastries" className="btn btn-compact btn-white">Shop pastries</Link>
-              <a href={whatsappHref} target="_blank" rel="noreferrer" className="btn btn-compact bg-[#25D366] text-white shadow-[0_12px_30px_-10px_rgba(37,211,102,0.7)] hover:bg-[#1EBE5A]">WhatsApp us</a>
-            </motion.div>
-            <motion.div style={{ opacity: cakeOpacity }} className="absolute flex gap-3">
-              <Link href="/cakes" className="btn btn-compact btn-primary">Shop cakes</Link>
-              <a href={whatsappHref} target="_blank" rel="noreferrer" className="btn btn-compact bg-[#25D366] text-white shadow-[0_12px_30px_-10px_rgba(37,211,102,0.7)] hover:bg-[#1EBE5A]">WhatsApp us</a>
-            </motion.div>
-          </div>
-        </div>
+        <Stage
+          heading="h1"
+          opacity={pastryOpacity}
+          y={pastryY}
+          pointer={pastryPointer}
+          light
+          eyebrow="Heritage recipes · Keepsake boxes"
+          title="Festive Pastries"
+          sub="Pineapple balls rolled by hand, crisps baked paper-thin and cookies made in small batches, packed in lacquer boxes for gifting."
+          href="/pastries"
+          cta="See all pastries"
+          visual={<PastryCluster />}
+        />
+        <Stage
+          heading="h2"
+          opacity={cakeOpacity}
+          y={cakeY}
+          pointer={cakePointer}
+          light={false}
+          eyebrow="Handcrafted · Made to order"
+          title="Celebration Cakes"
+          sub="Fresh florals, character cakes and hand-sculpted showpieces, baked for your date and finished with your message."
+          href="/cakes"
+          cta="See all cakes"
+          visual={<CakeTrio />}
+        />
 
         <motion.div
           style={{ opacity: hintOpacity }}
-          className="absolute bottom-3 inset-x-0 flex justify-center text-white/70 animate-bounce"
+          className="absolute bottom-3 inset-x-0 flex justify-center text-white/70 animate-bounce z-10"
         >
           <ChevronDown size={20} strokeWidth={1.5} />
         </motion.div>

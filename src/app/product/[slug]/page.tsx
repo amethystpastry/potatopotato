@@ -54,7 +54,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         <div className="px-6 sm:px-10 lg:px-16 py-12 lg:py-20 max-w-xl">
           <Reveal>
             <p className="eyebrow mb-3">{c.label}{product.seasonal ? ` · ${product.seasonal}` : ""}</p>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-light leading-[1.02]">{product.name}</h1>
+            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight">{product.name}</h1>
             <p className="mt-6 text-muted text-lg leading-relaxed">{product.description}</p>
           </Reveal>
           <Reveal delay={0.1} className="mt-10">
@@ -81,7 +81,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       {related.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28 border-t border-line">
           <Reveal className="flex items-end justify-between mb-10">
-            <h2 className="font-display text-3xl md:text-4xl font-light">You may also love</h2>
+            <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight">You may also love</h2>
             <Link href={c.category === "cakes" ? `/cakes#${product.collection}` : `/pastries#${product.collection}`} className="text-xs tracking-[0.2em] uppercase text-amethyst hover:underline">View all</Link>
           </Reveal>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-6">

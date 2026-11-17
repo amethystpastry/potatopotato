@@ -25,7 +25,7 @@ export default function Collections() {
               <Image src="/images/custom/elegant-trio-of-artisan-celebration-cakes.png" alt="Celebration cakes" fill sizes="(max-width:768px) 100vw, 50vw" className="object-contain object-bottom p-6 pb-24 transition-transform duration-[1.4s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:-translate-y-3" />
               <div className="absolute inset-x-0 bottom-0 p-8 md:p-10 bg-gradient-to-t from-amethyst-deep/80 via-amethyst-deep/30 to-transparent text-white">
                 <p className="eyebrow !text-white/80 mb-2">Made to order · 3 days’ notice</p>
-                <h3 className="font-display text-4xl md:text-5xl font-light">Celebration Cakes</h3>
+                <h3 className="font-display text-2xl md:text-3xl">Celebration Cakes</h3>
                 <span className="mt-4 inline-flex items-center gap-2 text-xs tracking-[0.22em] uppercase">
                   Shop cakes <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
                 </span>
@@ -37,7 +37,7 @@ export default function Collections() {
               <Image src="/images/hero/festive-chinese-new-year-snack-display-5.jpg" alt="Festive pastries in red lacquer boxes" fill sizes="(max-width:768px) 100vw, 50vw" className="object-cover transition-transform duration-[1.4s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-105" />
               <div className="absolute inset-x-0 bottom-0 p-8 md:p-10 bg-gradient-to-t from-[#4a0a0d]/85 via-[#4a0a0d]/30 to-transparent text-white">
                 <p className="eyebrow !text-white/80 mb-2">Seasonal · Ships island-wide</p>
-                <h3 className="font-display text-4xl md:text-5xl font-light">Festive Pastries</h3>
+                <h3 className="font-display text-2xl md:text-3xl">Festive Pastries</h3>
                 <span className="mt-4 inline-flex items-center gap-2 text-xs tracking-[0.22em] uppercase">
                   Shop pastries <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
                 </span>
@@ -58,7 +58,7 @@ export default function Collections() {
                   </div>
                   <div className="p-5">
                     <p className="text-[0.62rem] tracking-[0.25em] uppercase text-amethyst/80 mb-1">{c.category}</p>
-                    <h4 className="font-display text-xl md:text-2xl leading-tight">{c.label}</h4>
+                    <h4 className="font-display text-lg md:text-xl leading-tight">{c.label}</h4>
                   </div>
                 </Link>
               </Reveal>

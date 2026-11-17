@@ -6,7 +6,7 @@ import { site } from "@/data/site";
 const topics = ["Custom cake", "Bulk / corporate order", "Festive pastries", "Something else"];
 
 const field =
-  "w-full rounded-xl border border-line px-4 py-3 text-sm outline-none focus:border-amethyst transition-colors bg-white";
+  "w-full rounded-md border border-line px-4 py-3 text-sm outline-none focus:border-amethyst transition-colors bg-white";
 const label = "text-[0.65rem] tracking-[0.25em] uppercase text-muted mb-2 block";
 
 export default function ContactForm() {

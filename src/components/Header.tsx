@@ -120,7 +120,7 @@ export default function Header() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 + i * 0.07 }}
                 >
-                  <Link href={item.href} onClick={() => setOpen(false)} className="font-display text-5xl font-light">
+                  <Link href={item.href} onClick={() => setOpen(false)} className="font-display text-3xl">
                     {item.label}
                   </Link>
                 </motion.div>
