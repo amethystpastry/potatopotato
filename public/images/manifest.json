@@ -1,0 +1,1458 @@
+[
+ {
+  "src": "/images/hero/blue-puppy-birthday-cake-3.png",
+  "orig": "Blue puppy birthday cake-3.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/chelsea-football-club-16th-birthday-cake-4.png",
+  "orig": "Chelsea Football Club 16th Birthday Cake-4.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/chinese-new-year-kueh-kapit-trio-2.png",
+  "orig": "Chinese New Year Kueh Kapit Trio-2.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/cool-blue-bakery-hero-background-1.jpg",
+  "orig": "Cool Blue Bakery Hero Background-1.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/crimson-new-year-backdrop-with-purple-accents-1.jpg",
+  "orig": "Crimson New Year backdrop with purple accents-1.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/crimson-new-year-bakery-backdrop-3.jpg",
+  "orig": "Crimson New Year bakery backdrop-3.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/crimson-new-year-plum-blossoms-4.jpg",
+  "orig": "Crimson New Year, Plum Blossoms-4.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/festive-chinese-new-year-snack-display-5.jpg",
+  "orig": "Festive Chinese New Year Snack Display-5.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/four-assorted-golden-savory-crisps-3.png",
+  "orig": "Four assorted golden savory crisps-3.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/golden-chinese-new-year-almond-cookies-1.png",
+  "orig": "Golden Chinese New Year Almond Cookies-1.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/golden-pineapple-ball-tart-2.png",
+  "orig": "Golden pineapple ball tart-2.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/golden-trio-of-rustic-biscuits-4.png",
+  "orig": "Golden trio of rustic biscuits-4.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/handcrafted-green-tortoise-birthday-cake-1.png",
+  "orig": "Handcrafted green tortoise birthday cake-1.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/ivory-studio-backdrop-with-powder-blue-accents-3.jpg",
+  "orig": "Ivory studio backdrop with powder blue accents-3.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/pale-sage-and-sand-backdrop-2.jpg",
+  "orig": "Pale sage and sand backdrop-2.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/pastel-blue-floral-cake-cutout-2.png",
+  "orig": "Pastel blue floral cake cutout-2.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/powder-blue-bakery-hero-backdrop-1.jpg",
+  "orig": "Powder-blue bakery hero backdrop-1.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/hero/six-golden-pineapple-pastries-1.png",
+  "orig": "Six golden pineapple pastries-1.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/three-golden-sesame-snack-balls-2.png",
+  "orig": "Three golden sesame snack balls-2.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 1400,
+  "alpha": true
+ },
+ {
+  "src": "/images/hero/vermilion-lanterns-frame-a-clean-red-backdrop-2.jpg",
+  "orig": "Vermilion lanterns frame a clean red backdrop-2.png",
+  "cat": "hero",
+  "w": 1400,
+  "h": 788,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/almond-cookies.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Almond Cookies.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/chicken-floss-slice.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Chicken Floss Slice.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/crispy-thin-almond-slice.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Crispy Thin Almond Slice.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/ginger-pineapple-tart.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Ginger Pineapple Tart.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/mini-love-letters.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Mini Love Letters.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/pineapple-ball.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Pineapple Ball.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/pineapple-cheese.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Pineapple Cheese.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/pistachio-cookies.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Pistachio Cookies.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/seaweed-slice.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Seaweed Slice.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/take-event-1.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Take-Event-1.jpg",
+  "cat": "cny",
+  "w": 1200,
+  "h": 899,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/take-event-2.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Take-Event-2.jpg",
+  "cat": "cny",
+  "w": 1200,
+  "h": 899,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/take-event-3.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Take-Event-3.jpg",
+  "cat": "cny",
+  "w": 1200,
+  "h": 899,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/take-event-4.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Take-Event-4.jpg",
+  "cat": "cny",
+  "w": 899,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/take-event-5.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Take-Event-5.jpg",
+  "cat": "cny",
+  "w": 899,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/walnut-cookies.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/Walnut Cookies.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/cny/img.jpg",
+  "orig": "Amethyst Product Collection/Chinese New Year/崛起蛋糕.png",
+  "cat": "cny",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/crimson-bakery-hero-backdrop-5.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/Crimson bakery hero backdrop-5.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 675,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/elegant-trio-of-artisan-celebration-cakes-4.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/Elegant trio of artisan celebration cakes-4.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 675,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/elegant-trio-of-artisan-celebration-cakes.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/Elegant trio of artisan celebration cakes.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 675,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j08-3ddinousars.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J008-3DDINOUSARS.png",
+  "cat": "custom",
+  "w": 902,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j14-pinkih.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J014-PINKIH.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j17-bowties.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J017-BOWTIES.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j18-car-3d.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J018-CAR 3D.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 675,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j20-number-1.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J020-NUMBER 1.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 796,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j35-rainbow-side.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J035-RAINBOW SIDE.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 1147,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j37-oreo-cream.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J037-OREO CREAM.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 1102,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j40-black-forest-mousse.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J040- BLACK FOREST MOUSSE.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j50-aeroplane.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J050-Aeroplane.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j53-drawing-cake.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J053-Drawing Cake.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j55-watermelon.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J055-Watermelon.png",
+  "cat": "custom",
+  "w": 1170,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j57-hamburger.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J057-HamBurger.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 1158,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j58-peacock-cake.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J058-Peacock Cake.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j59-shitty-shape.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J059-Shitty Shape.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j62-chemistry.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J062- Chemistry.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j69-gift-box-8pcs-cake.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J069-Gift Box-8pcs Cake.png",
+  "cat": "custom",
+  "w": 992,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j70-wedding-cupcake.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J070-Wedding Cupcake.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j71-liuqor-bottle.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J071-Liuqor Bottle.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j72-beer-yellow-mug.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J072-Beer Yellow Mug .png",
+  "cat": "custom",
+  "w": 1119,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j74-beer-dark-mug.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J074-Beer Dark Mug .png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j77-choi-san-yeh.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J077-Choi San Yeh.png",
+  "cat": "custom",
+  "w": 960,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/j78-longevity-buns.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/J078- Longevity Buns.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/photo-2021-07-30-10-35-53.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-07-30-10-35-53.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-08-24-20-00-37.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-08-24-20-00-37.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-09-05-17-01-39.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-09-05-17-01-39.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-09-19-17-54-40.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-09-19-17-54-40.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-10-16-20-11-35.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-10-16-20-11-35.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-10-20-12-13-21.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-10-20-12-13-21.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-11-18-19-23-24.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-11-18-19-23-24.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-11-27-15-50-02.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-11-27-15-50-02.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-11-27-16-04-32.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-11-27-16-04-32.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-12-06-19-31-04.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-12-06-19-31-04.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2021-12-07-20-02-58.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2021-12-07-20-02-58.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2022-01-02-12-57-18.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2022-01-02-12-57-18.jpg",
+  "cat": "custom",
+  "w": 674,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2022-03-26-16-30-14.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2022-03-26-16-30-14.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2022-04-01-20-22-59.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2022-04-01-20-22-59.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2022-04-07-19-32-30.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2022-04-07-19-32-30.jpg",
+  "cat": "custom",
+  "w": 880,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2022-08-30-22-08-05.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2022-08-30-22-08-05.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2022-08-31-09-54-16.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2022-08-31-09-54-16.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2022-09-04-12-14-13.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2022-09-04-12-14-13.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2023-04-24-15-57-41.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2023-04-24-15-57-41.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2023-04-24-15-57-42.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2023-04-24-15-57-42.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2023-04-29-12-40-35.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2023-04-29-12-40-35.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2023-05-03-08-42-54.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2023-05-03-08-42-54.jpg",
+  "cat": "custom",
+  "w": 675,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2023-05-03-17-51-55.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2023-05-03-17-51-55.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/photo-2023-05-03-17-51-56.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PHOTO-2023-05-03-17-51-56.jpg",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/pinata-cake-golf.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PINATA CAKE - GOLF.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/pinata-cake-planet-5.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/PINATA CAKE - PLANET 5.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/sesame-snack-balls-on-red-lacquer-box-3.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/Sesame snack balls on red lacquer box-3.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/six-golden-pastries-on-red-lacquer-box-1.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/Six golden pastries on red lacquer box-1.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/three-rustic-biscuits-on-a-red-box-2.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/Three Rustic Biscuits on a Red Box-2.png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/custom/longevity-2.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/longevity (2).png",
+  "cat": "custom",
+  "w": 879,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/longevity-3.jpg",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/longevity (3).png",
+  "cat": "custom",
+  "w": 1200,
+  "h": 900,
+  "alpha": false
+ },
+ {
+  "src": "/images/custom/simple-two-tier-gold-dried-orange.png",
+  "orig": "Amethyst Product Collection/Custom Birthday Cake/simple .TWO TIER - GOLD DRIED ORANGE.png",
+  "cat": "custom",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j07-bears.png",
+  "orig": "Amethyst Product Collection/KIDS/J007-BEARS.png",
+  "cat": "kids",
+  "w": 1155,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j11-elephants.png",
+  "orig": "Amethyst Product Collection/KIDS/J011-ELEPHANTS.png",
+  "cat": "kids",
+  "w": 963,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j12-baby-1.png",
+  "orig": "Amethyst Product Collection/KIDS/J012-BABY 1.png",
+  "cat": "kids",
+  "w": 1200,
+  "h": 1153,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j13-bears-1.png",
+  "orig": "Amethyst Product Collection/KIDS/J013-BEARS 1.png",
+  "cat": "kids",
+  "w": 923,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j15-rainbow-1.png",
+  "orig": "Amethyst Product Collection/KIDS/J015-RAINBOW 1.png",
+  "cat": "kids",
+  "w": 880,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j42-hero-cake.png",
+  "orig": "Amethyst Product Collection/KIDS/J042- Hero Cake.png",
+  "cat": "kids",
+  "w": 1200,
+  "h": 1100,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j43-princess-tiers.jpg",
+  "orig": "Amethyst Product Collection/KIDS/J043- Princess Tiers.png",
+  "cat": "kids",
+  "w": 924,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/kids/j44-cartoon-toppers.jpg",
+  "orig": "Amethyst Product Collection/KIDS/J044- Cartoon Toppers.png",
+  "cat": "kids",
+  "w": 996,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/kids/j45-mermaid-girls.png",
+  "orig": "Amethyst Product Collection/KIDS/J045- Mermaid Girls.png",
+  "cat": "kids",
+  "w": 675,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j46-spaceshiptoppers.png",
+  "orig": "Amethyst Product Collection/KIDS/J046- SpaceShipToppers .png",
+  "cat": "kids",
+  "w": 1197,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j47-princess-toppers.png",
+  "orig": "Amethyst Product Collection/KIDS/J047-Princess Toppers.png",
+  "cat": "kids",
+  "w": 1110,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j48-construtiontoppers.png",
+  "orig": "Amethyst Product Collection/KIDS/J048- ConstrutionToppers .png",
+  "cat": "kids",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j49-rainbow-pink.png",
+  "orig": "Amethyst Product Collection/KIDS/J049-Rainbow Pink.png",
+  "cat": "kids",
+  "w": 1060,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j52-harry-harry.png",
+  "orig": "Amethyst Product Collection/KIDS/J052-Harry Harry .png",
+  "cat": "kids",
+  "w": 1161,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j54-sea-mermaid.png",
+  "orig": "Amethyst Product Collection/KIDS/J054-Sea Mermaid.png",
+  "cat": "kids",
+  "w": 951,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j56-superhero-cake.png",
+  "orig": "Amethyst Product Collection/KIDS/J056-Superhero Cake.png",
+  "cat": "kids",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j61-cartoon-cake.png",
+  "orig": "Amethyst Product Collection/KIDS/J061- Cartoon Cake.png",
+  "cat": "kids",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/j63-princess.png",
+  "orig": "Amethyst Product Collection/KIDS/J063- Princess .png",
+  "cat": "kids",
+  "w": 1200,
+  "h": 963,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/mermaid-cakes-4.png",
+  "orig": "Amethyst Product Collection/KIDS/MERMAID CAKES (4).png",
+  "cat": "kids",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/kids-7.png",
+  "orig": "Amethyst Product Collection/KIDS/kids (7).png",
+  "cat": "kids",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/kids/kids-9.png",
+  "orig": "Amethyst Product Collection/KIDS/kids (9).png",
+  "cat": "kids",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/mooncake/amethyst-cantonese-style-harmony-quartet-mooncake-gift-box-4-flavours.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Amethyst Cantonese Style Harmony Quartet Mooncake Gift Box (4 Flavours).jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/black-sesame-mooncake.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Black Sesame Mooncake.jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/cantonese-style-sugar-free-white-lotus-paste-single-yolk-mooncake-4-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Cantonese Style Sugar‑Free White Lotus Paste Single Yolk Mooncake (4 Pieces).jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/copilot-20260807-010535.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Copilot_20260807_010535.png",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1108,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/hainanese-fusion-mooncake-8-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Hainanese Fusion Mooncake (8 Pieces).png",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/hainanese-pepper-salt-crispy-mooncake-8-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Hainanese Pepper Salt Crispy Mooncake (8 Pieces).jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/pure-white-lotus-paste-mooncake-4-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Pure White Lotus Paste  Mooncake (4 Pieces).png",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/sugar-free-white-lotus-crispy-walnut-mooncake-9-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Sugar‑Free White Lotus Crispy Walnut Mooncake (9 Pieces).png",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/sugar-free-white-lotus-paste-double-yolk-mooncake-4-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Sugar‑Free White Lotus Paste Double Yolk Mooncake (4 Pieces).jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/sugar-free-white-lotus-paste-egg-yolk-walnut-mooncake-9-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Sugar‑Free White Lotus Paste Egg Yolk Walnut Mooncake (9 Pieces).jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/sugar-free-white-lotus-paste-mooncake-4-pieces.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Sugar‑Free White Lotus Paste Mooncake (4 Pieces).png",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/take-event-1.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Take-Event-1.jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 899,
+  "alpha": false
+ },
+ {
+  "src": "/images/mooncake/take-event-2.jpg",
+  "orig": "Amethyst Product Collection/Mid-Autumn Festival Mooncakes/Take-Event-2.jpg",
+  "cat": "mooncake",
+  "w": 1200,
+  "h": 899,
+  "alpha": false
+ },
+ {
+  "src": "/images/sport/beer-theme-gold-chocolate-2.png",
+  "orig": "Amethyst Product Collection/SPORT/BEER THEME - GOLD CHOCOLATE (2).png",
+  "cat": "sport",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/chiffon-2-1.png",
+  "orig": "Amethyst Product Collection/SPORT/CHIFFON (2) (1).png",
+  "cat": "sport",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/cream-cake-icing-sheet-football.png",
+  "orig": "Amethyst Product Collection/SPORT/CREAM CAKE - ICING SHEET FOOTBALL.png",
+  "cat": "sport",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/dinasour-theme-cream-cake.png",
+  "orig": "Amethyst Product Collection/SPORT/DINASOUR THEME - CREAM CAKE.png",
+  "cat": "sport",
+  "w": 1200,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/j73-field-with-ball.png",
+  "orig": "Amethyst Product Collection/SPORT/J073-Field With Ball .png",
+  "cat": "sport",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/j76-flags-with-football.png",
+  "orig": "Amethyst Product Collection/SPORT/J076-Flags with football.png",
+  "cat": "sport",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/j79-snookertable.png",
+  "orig": "Amethyst Product Collection/SPORT/J079-SnookerTable.png",
+  "cat": "sport",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/j82-trains-buses.png",
+  "orig": "Amethyst Product Collection/SPORT/J082-Trains & Buses.png",
+  "cat": "sport",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/drawing-3.png",
+  "orig": "Amethyst Product Collection/SPORT/drawing (3).png",
+  "cat": "sport",
+  "w": 855,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/sport/sports.png",
+  "orig": "Amethyst Product Collection/SPORT/sports.png",
+  "cat": "sport",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j01-elephant.png",
+  "orig": "Amethyst Product Collection/animal/J001-ELEPHANT.png",
+  "cat": "animal",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j02-shark.png",
+  "orig": "Amethyst Product Collection/animal/J002-SHARK.png",
+  "cat": "animal",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j03-lizard.png",
+  "orig": "Amethyst Product Collection/animal/J003-LIZARD.png",
+  "cat": "animal",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j04-lizard.png",
+  "orig": "Amethyst Product Collection/animal/J004-LIZARD.png",
+  "cat": "animal",
+  "w": 1200,
+  "h": 946,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j05-tortoise.png",
+  "orig": "Amethyst Product Collection/animal/J005-TORTOISE.png",
+  "cat": "animal",
+  "w": 1200,
+  "h": 1003,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j06-chicken.png",
+  "orig": "Amethyst Product Collection/animal/J006-CHICKEN.png",
+  "cat": "animal",
+  "w": 1133,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j09-rabbits.png",
+  "orig": "Amethyst Product Collection/animal/J009-RABBITS.png",
+  "cat": "animal",
+  "w": 960,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j19-rabbits.png",
+  "orig": "Amethyst Product Collection/animal/J019-RABBITS.png",
+  "cat": "animal",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j41-butterfly-dreamy.png",
+  "orig": "Amethyst Product Collection/animal/J041- Butterfly Dreamy.png",
+  "cat": "animal",
+  "w": 816,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/j64-monster.png",
+  "orig": "Amethyst Product Collection/animal/J064- Monster.png",
+  "cat": "animal",
+  "w": 1200,
+  "h": 1116,
+  "alpha": true
+ },
+ {
+  "src": "/images/animal/sheepcake-2.png",
+  "orig": "Amethyst Product Collection/animal/sheepcake.2.png",
+  "cat": "animal",
+  "w": 1200,
+  "h": 1192,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/1.png",
+  "orig": "Amethyst Product Collection/rec/1.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/bertunang-cake-engagement.png",
+  "orig": "Amethyst Product Collection/rec/BERTUNANG CAKE ENGAGEMENT ..png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 861,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/cream-cake-temple.png",
+  "orig": "Amethyst Product Collection/rec/CREAM CAKE - TEMPLE.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/cupcake-dinasour-world-up.png",
+  "orig": "Amethyst Product Collection/rec/CUPCAKE - DINASOUR WORLD UP.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/j65-cupcake-wording.jpg",
+  "orig": "Amethyst Product Collection/rec/J065- Cupcake Wording.JPG",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 900,
+  "alpha": false
+ },
+ {
+  "src": "/images/occasion/j66-cupcake-turtle.png",
+  "orig": "Amethyst Product Collection/rec/J066- Cupcake Turtle.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/j68-cupcake-unicorn.png",
+  "orig": "Amethyst Product Collection/rec/J068- Cupcake Unicorn.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/j80-gift-box-6pcs.png",
+  "orig": "Amethyst Product Collection/rec/J080-Gift Box- 6pcs .png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 675,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/j80-gift-box-6pcs-2.png",
+  "orig": "Amethyst Product Collection/rec/J080-Gift Box- 6pcs 2.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 675,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/number-cake-30.png",
+  "orig": "Amethyst Product Collection/rec/NUMBER CAKE - 30.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 722,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/school-bus.png",
+  "orig": "Amethyst Product Collection/rec/SCHOOL BUS.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 957,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/xmas-snowman.png",
+  "orig": "Amethyst Product Collection/rec/XMAS-SNOWMAN.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 785,
+  "alpha": true
+ },
+ {
+  "src": "/images/occasion/wedding-2.png",
+  "orig": "Amethyst Product Collection/rec/wedding 2.png",
+  "cat": "occasion",
+  "w": 1200,
+  "h": 866,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j21-flowers-in-box.jpg",
+  "orig": "Amethyst Product Collection/simple/J021-FLOWERS IN BOX.png",
+  "cat": "elegant",
+  "w": 1200,
+  "h": 675,
+  "alpha": false
+ },
+ {
+  "src": "/images/elegant/j22-flowers.png",
+  "orig": "Amethyst Product Collection/simple/J022-FLOWERS.png",
+  "cat": "elegant",
+  "w": 978,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j24-cream-flowers.png",
+  "orig": "Amethyst Product Collection/simple/J024-CREAM FLOWERS.png",
+  "cat": "elegant",
+  "w": 1200,
+  "h": 900,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j25-cream-flowers.png",
+  "orig": "Amethyst Product Collection/simple/J025-CREAM FLOWERS.png",
+  "cat": "elegant",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j26-roses-flowers.png",
+  "orig": "Amethyst Product Collection/simple/J026-ROSES FLOWERS.png",
+  "cat": "elegant",
+  "w": 958,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j28-pinkish.png",
+  "orig": "Amethyst Product Collection/simple/J028-PINKISH.png",
+  "cat": "elegant",
+  "w": 1200,
+  "h": 1023,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j29-love-roses.png",
+  "orig": "Amethyst Product Collection/simple/J029-LOVE ROSES.png",
+  "cat": "elegant",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j30-flowers-tiers.png",
+  "orig": "Amethyst Product Collection/simple/J030-FLOWERS TIERS.png",
+  "cat": "elegant",
+  "w": 978,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j31-blue-white.png",
+  "orig": "Amethyst Product Collection/simple/J031-BLUE WHITE.png",
+  "cat": "elegant",
+  "w": 1200,
+  "h": 1036,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j032-choc-on-white.png",
+  "orig": "Amethyst Product Collection/simple/J032 CHOC ON WHITE.png",
+  "cat": "elegant",
+  "w": 1170,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j33-choc-round.png",
+  "orig": "Amethyst Product Collection/simple/J033-CHOC ROUND .png",
+  "cat": "elegant",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j34-blue-on-white.png",
+  "orig": "Amethyst Product Collection/simple/J034- BLUE ON WHITE.png",
+  "cat": "elegant",
+  "w": 1200,
+  "h": 986,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j35-rainbow-side.png",
+  "orig": "Amethyst Product Collection/simple/J035-RAINBOW SIDE.png",
+  "cat": "elegant",
+  "w": 1200,
+  "h": 1147,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j36-chocolate.png",
+  "orig": "Amethyst Product Collection/simple/J036-CHOCOLATE.png",
+  "cat": "elegant",
+  "w": 1115,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j38-assorted-fruits.png",
+  "orig": "Amethyst Product Collection/simple/J038-ASSORTED FRUITS.png",
+  "cat": "elegant",
+  "w": 900,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/j39-heha-purple.png",
+  "orig": "Amethyst Product Collection/simple/J039-HEHA PURPLE.png",
+  "cat": "elegant",
+  "w": 943,
+  "h": 1200,
+  "alpha": true
+ },
+ {
+  "src": "/images/elegant/flower.jpg",
+  "orig": "Amethyst Product Collection/simple/flower.png",
+  "cat": "elegant",
+  "w": 1107,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/elegant/flowers-3.jpg",
+  "orig": "Amethyst Product Collection/simple/flowers (3).png",
+  "cat": "elegant",
+  "w": 1104,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/elegant/love.jpg",
+  "orig": "Amethyst Product Collection/simple/love.png",
+  "cat": "elegant",
+  "w": 740,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "src": "/images/brand/logo-amethyst.png",
+  "orig": "Amethyst Product Collection/LOGO-Amethyst.png",
+  "cat": "brand",
+  "w": 1600,
+  "h": 1130,
+  "alpha": true
+ },
+ {
+  "src": "/images/brand/amethyst-logo.jpg",
+  "orig": "Amethyst Product Collection/Amethyst Logo.jpg",
+  "cat": "brand",
+  "w": 1600,
+  "h": 1132,
+  "alpha": false
+ }
+]
