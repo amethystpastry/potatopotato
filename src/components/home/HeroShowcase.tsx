@@ -6,6 +6,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform, type MotionValue } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { site } from "@/data/site";
+import { T, useT } from "@/lib/i18n";
 
 const whatsappHref = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent("Hi Amethyst! I'd like to place an order.")}`;
 
@@ -95,7 +96,7 @@ function Stage({ opacity, y, pointer, light, eyebrow, title, sub, href, cta, vis
           <p className={`mt-3 md:mt-5 text-sm md:text-base leading-relaxed ${light ? "text-white/85" : "text-ink/75"}`}>{sub}</p>
           <div className="mt-5 md:mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
             <Link href={href} className={`btn btn-compact ${light ? "btn-white" : "btn-primary"}`}>{cta}</Link>
-            <a href={whatsappHref} target="_blank" rel="noreferrer" className={greenBtn}>WhatsApp us</a>
+            <a href={whatsappHref} target="_blank" rel="noreferrer" className={greenBtn}><T en="WhatsApp us" zh="WhatsApp 联系我们" /></a>
           </div>
         </div>
         <motion.div style={{ y }} className="flex-1 min-h-0 flex items-center justify-center">
@@ -107,6 +108,7 @@ function Stage({ opacity, y, pointer, light, eyebrow, title, sub, href, cta, vis
 }
 
 export default function HeroShowcase() {
+  const t = useT();
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
 
@@ -148,11 +150,14 @@ export default function HeroShowcase() {
           y={pastryY}
           pointer={pastryPointer}
           light
-          eyebrow="Heritage recipes · Keepsake boxes"
-          title="Festive Pastries"
-          sub="Pineapple balls rolled by hand, crisps baked paper-thin and cookies made in small batches, packed in lacquer boxes for gifting."
+          eyebrow={t("Heritage recipes · Keepsake boxes", "传承古早味 · 精美礼盒")}
+          title={t("Festive Pastries", "节庆糕点")}
+          sub={t(
+            "Pineapple balls rolled by hand, crisps baked paper-thin and cookies made in small batches, packed in lacquer boxes for gifting.",
+            "手工搓制的黄梨球、薄如纸的脆片与小批量烘焙的饼干，装进红漆礼盒，送礼自用皆宜。",
+          )}
           href="/pastries"
-          cta="See all pastries"
+          cta={t("See all pastries", "查看全部糕点")}
           visual={<PastryCluster />}
         />
         <Stage
@@ -161,11 +166,14 @@ export default function HeroShowcase() {
           y={cakeY}
           pointer={cakePointer}
           light={false}
-          eyebrow="Handcrafted · Made to order"
-          title="Celebration Cakes"
-          sub="Fresh florals, character cakes and hand-sculpted showpieces, baked for your date and finished with your message."
+          eyebrow={t("Handcrafted · Made to order", "纯手工 · 按单订制")}
+          title={t("Celebration Cakes", "庆典蛋糕")}
+          sub={t(
+            "Fresh florals, character cakes and hand-sculpted showpieces, baked for your date and finished with your message.",
+            "鲜花蛋糕、卡通造型与手工雕塑蛋糕，按您的日期新鲜烘焙，并写上您的祝福。",
+          )}
           href="/cakes"
-          cta="See all cakes"
+          cta={t("See all cakes", "查看全部蛋糕")}
           visual={<CakeTrio />}
         />
 

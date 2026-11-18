@@ -8,16 +8,48 @@ import { Menu, ShoppingBag, X } from "lucide-react";
 import Logo from "./Logo";
 import { useCart, cartTotals } from "@/lib/store";
 import { useHydrated } from "@/lib/useHydrated";
+import { setLang, useLang, useT, type Lang } from "@/lib/i18n";
 
-const left = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+type NavItem = { href: string; label: string; zh: string };
+const left: NavItem[] = [
+  { href: "/", label: "Home", zh: "首页" },
+  { href: "/about", label: "About", zh: "关于我们" },
+  { href: "/contact", label: "Contact", zh: "联系我们" },
 ];
-const right = [
-  { href: "/cakes", label: "Cakes" },
-  { href: "/pastries", label: "Pastries" },
+const right: NavItem[] = [
+  { href: "/cakes", label: "Cakes", zh: "蛋糕" },
+  { href: "/pastries", label: "Pastries", zh: "糕点" },
 ];
+
+/** EN / 中文 switch. */
+function LangSwitch({ light = false, className = "" }: { light?: boolean; className?: string }) {
+  const lang = useLang();
+  const opt = (value: Lang, text: string) => {
+    const active = lang === value;
+    return (
+      <button
+        type="button"
+        onClick={() => setLang(value)}
+        aria-pressed={active}
+        lang={value === "zh" ? "zh-Hans" : "en"}
+        className={`whitespace-nowrap px-1.5 md:px-2 py-1 text-[0.72rem] tracking-[0.12em] transition-colors ${
+          active
+            ? light ? "text-white font-medium" : "text-amethyst font-medium"
+            : light ? "text-white/55 hover:text-white" : "text-ink/45 hover:text-amethyst"
+        }`}
+      >
+        {text}
+      </button>
+    );
+  };
+  return (
+    <div role="group" aria-label="Language / 语言" className={`flex items-center ${className}`}>
+      {opt("en", "EN")}
+      <span className={light ? "text-white/30" : "text-ink/20"}>|</span>
+      {opt("zh", "中文")}
+    </div>
+  );
+}
 
 export default function Header() {
   const pathname = usePathname();
@@ -27,6 +59,7 @@ export default function Header() {
   const setCartOpen = useCart((s) => s.setOpen);
   const hydrated = useHydrated();
   const count = hydrated ? cartTotals(items).count : 0;
+  const t = useT();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -35,7 +68,7 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const link = (item: { href: string; label: string }) => {
+  const link = (item: NavItem) => {
     const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
     return (
       <Link
@@ -45,7 +78,7 @@ export default function Header() {
           active ? "text-amethyst" : "text-ink/80"
         }`}
       >
-        {item.label}
+        {t(item.label, item.zh)}
         <span
           className={`absolute -bottom-1.5 left-0 h-px bg-amethyst transition-all duration-500 ${
             active ? "w-full" : "w-0"
@@ -58,7 +91,7 @@ export default function Header() {
   return (
     <>
       <div className="bg-amethyst text-white text-center text-[0.7rem] tracking-[0.2em] uppercase py-2 px-4">
-        Free self-collection at Greenridge & Woodlands · Island-wide delivery
+        {t("Free self-collection at Greenridge & Woodlands · Island-wide delivery", "Greenridge 与 Woodlands 免费自取 · 全岛送货")}
       </div>
       <header
         className={`sticky top-0 z-40 transition-all duration-500 ${
@@ -78,12 +111,13 @@ export default function Header() {
 
             <Logo height={scrolled ? 40 : 50} className="transition-all duration-500 justify-self-center" />
 
-            <div className="flex items-center justify-end gap-10">
+            <div className="flex items-center justify-end gap-3 md:gap-8">
               <nav className="hidden md:flex items-center gap-10">{right.map(link)}</nav>
+              <LangSwitch className="md:-mr-3" />
               <button
                 onClick={() => setCartOpen(true)}
                 className="relative p-2 -mr-2 text-ink hover:text-amethyst transition-colors"
-                aria-label="Open cart"
+                aria-label={t("Open cart", "打开购物袋")}
               >
                 <ShoppingBag size={22} strokeWidth={1.5} />
                 {count > 0 && (
@@ -121,11 +155,12 @@ export default function Header() {
                   transition={{ delay: 0.1 + i * 0.07 }}
                 >
                   <Link href={item.href} onClick={() => setOpen(false)} className="font-display text-3xl">
-                    {item.label}
+                    {t(item.label, item.zh)}
                   </Link>
                 </motion.div>
               ))}
             </nav>
+            <LangSwitch light className="justify-center pb-6 scale-125" />
             <p className="text-center text-white/60 text-xs tracking-[0.25em] uppercase pb-10">
               Greenridge · Woodlands · Singapore
             </p>

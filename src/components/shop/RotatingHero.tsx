@@ -6,6 +6,7 @@ import Image from "next/image";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { site } from "@/data/site";
 import type { HeroSlide } from "@/data/heroSlides";
+import { useT } from "@/lib/i18n";
 
 const INTERVAL = 4800;
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -19,14 +20,17 @@ const whatsappHref = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent("
 export default function RotatingHero({
   slides,
   label,
+  labelZh,
   background,
   dark = false,
 }: {
   slides: HeroSlide[];
   label: string;
+  labelZh: string;
   background: string;
   dark?: boolean;
 }) {
+  const t = useT();
   const [index, setIndex] = useState(0);
   const [hidden, setHidden] = useState(false);
   const reduce = useReducedMotion();
@@ -97,9 +101,9 @@ export default function RotatingHero({
         {/* Copy: changes with each product */}
         <div className="relative md:order-1 text-center md:text-left" aria-live="polite">
           <AnimatePresence mode="wait">
-            <motion.div key={slide.src} initial="hidden" animate="show" exit="exit">
+            <motion.div key={slide.src + t("", "zh")} initial="hidden" animate="show" exit="exit">
               <motion.p variants={line(0)} className={`eyebrow mb-3 md:mb-5 ${dark ? "!text-white/80" : "!text-amethyst-deep/70"}`}>
-                {label} · {slide.eyebrow}
+                {t(label, labelZh)} · {t(slide.eyebrow, slide.zh.eyebrow)}
               </motion.p>
               <motion.h1
                 variants={line(0.08)}
@@ -107,7 +111,7 @@ export default function RotatingHero({
                   dark ? "text-white" : "text-amethyst-deep"
                 }`}
               >
-                {slide.title} <em className="italic font-light">{slide.accent}</em>
+                {t(slide.title, slide.zh.title)}{t(" ", "")}<em className="italic font-light">{t(slide.accent, slide.zh.accent)}</em>
               </motion.h1>
               <motion.p
                 variants={line(0.16)}
@@ -115,14 +119,14 @@ export default function RotatingHero({
                   dark ? "text-white/85" : "text-ink/75"
                 }`}
               >
-                {slide.blurb}
+                {t(slide.blurb, slide.zh.blurb)}
               </motion.p>
             </motion.div>
           </AnimatePresence>
 
           <div className="mt-6 md:mt-9 flex flex-wrap gap-3 justify-center md:justify-start">
             <Link href={slide.href} className={`btn ${dark ? "btn-white" : "btn-primary"}`}>
-              {slide.cta}
+              {t(slide.cta, slide.zh.cta)}
             </Link>
             <a
               href={whatsappHref}
@@ -130,7 +134,7 @@ export default function RotatingHero({
               rel="noreferrer"
               className="btn bg-[#25D366] text-white hover:bg-[#1EBE5A]"
             >
-              WhatsApp us
+              {t("WhatsApp us", "WhatsApp 联系我们")}
             </a>
           </div>
         </div>

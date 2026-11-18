@@ -2,8 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { collections, type Collection } from "@/lib/products";
+import { useLang } from "@/lib/i18n";
+import { collectionLabel } from "@/lib/productText";
 
 export default function CollectionNav({ ids }: { ids: Collection[] }) {
+  const lang = useLang();
   const [active, setActive] = useState<Collection>(ids[0]);
   useEffect(() => {
     const obs = new IntersectionObserver(
@@ -30,7 +33,7 @@ export default function CollectionNav({ ids }: { ids: Collection[] }) {
               active === id ? "bg-amethyst text-white" : "bg-amethyst-mist text-ink/70 hover:bg-amethyst-soft"
             }`}
           >
-            {collections[id].label}
+            {lang === "zh" ? collectionLabel(id, "zh") : collections[id].label}
           </a>
         ))}
       </div>

@@ -18,6 +18,7 @@ export default function PastriesPage() {
       <RotatingHero
         dark
         label="Festive pastries"
+        labelZh="节庆糕点"
         slides={pastrySlides}
         background="/images/hero/crimson-new-year-plum-blossoms-4.jpg"
       />

@@ -3,12 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Plus } from "lucide-react";
-import { backdropStyles, fromPrice, collections, type Product } from "@/lib/products";
+import { backdropStyles, fromPrice, type Product } from "@/lib/products";
 import { money } from "@/lib/format";
 import { useCart } from "@/lib/store";
+import { useLang } from "@/lib/i18n";
+import { collectionLabel, productName, term } from "@/lib/productText";
 
 export default function ProductCard({ product, priority = false }: { product: Product; priority?: boolean }) {
   const add = useCart((s) => s.add);
+  const lang = useLang();
+  const name = productName(product, lang);
   const single = product.variants.length === 1;
   return (
     <article className="group">
@@ -16,7 +20,7 @@ export default function ProductCard({ product, priority = false }: { product: Pr
         <div className="relative aspect-[4/5]">
           <Image
             src={product.image}
-            alt={product.name}
+            alt={name}
             fill
             priority={priority}
             sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
@@ -25,7 +29,7 @@ export default function ProductCard({ product, priority = false }: { product: Pr
         </div>
         {product.badge && (
           <span className="absolute top-4 left-4 rounded-sm bg-white/90 backdrop-blur px-3 py-1 text-[0.62rem] tracking-[0.2em] uppercase text-amethyst-deep">
-            {product.badge}
+            {term(product.badge, lang)}
           </span>
         )}
         {single && (
@@ -34,7 +38,7 @@ export default function ProductCard({ product, priority = false }: { product: Pr
               e.preventDefault();
               add({ slug: product.slug, variantId: product.variants[0].id, qty: 1 });
             }}
-            aria-label={`Add ${product.name} to cart`}
+            aria-label={lang === "zh" ? `将${name}加入购物袋` : `Add ${name} to cart`}
             className="absolute bottom-4 right-4 h-11 w-11 rounded-md bg-amethyst text-white flex items-center justify-center shadow-lg opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 hover:bg-amethyst-deep"
           >
             <Plus size={18} />
@@ -43,13 +47,13 @@ export default function ProductCard({ product, priority = false }: { product: Pr
       </Link>
       <div className="mt-4 flex items-start justify-between gap-3">
         <div>
-          <p className="text-[0.62rem] tracking-[0.25em] uppercase text-amethyst/80">{collections[product.collection].label}</p>
+          <p className="text-[0.62rem] tracking-[0.25em] uppercase text-amethyst/80">{collectionLabel(product.collection, lang)}</p>
           <h3 className="font-display text-base md:text-lg leading-snug mt-1">
-            <Link href={`/product/${product.slug}`} className="hover:text-amethyst transition-colors">{product.name}</Link>
+            <Link href={`/product/${product.slug}`} className="hover:text-amethyst transition-colors">{name}</Link>
           </h3>
         </div>
         <p className="text-sm text-ink whitespace-nowrap pt-4">
-          {single ? "" : <span className="text-muted">from </span>}
+          {single ? "" : <span className="text-muted">{lang === "zh" ? "起 " : "from "}</span>}
           {money(fromPrice(product))}
         </p>
       </div>

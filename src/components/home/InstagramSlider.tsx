@@ -4,15 +4,16 @@ import Marquee from "../ui/Marquee";
 import Reveal from "../ui/Reveal";
 import { instagramTiles } from "@/data/instagram";
 import { site } from "@/data/site";
+import { T } from "@/lib/i18n";
 
 export default function InstagramSlider() {
   return (
     <section className="bg-white py-24 md:py-32 overflow-hidden">
       <Reveal className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div>
-          <p className="eyebrow mb-4">Follow along</p>
+          <p className="eyebrow mb-4"><T en="Follow along" zh="关注我们" /></p>
           <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight">
-            Fresh out of the oven, <em className="italic">on Instagram</em>
+            <T en={<>Fresh out of the oven, <em className="italic">on Instagram</em></>} zh={<>新鲜出炉，尽在 <em>Instagram</em></>} />
           </h2>
         </div>
         <a href={site.instagram} target="_blank" rel="noreferrer" className="btn btn-outline">

@@ -26,8 +26,8 @@
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-cream: var(--cream);
-  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-jost), "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-montserrat), "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
   --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -160,3 +160,8 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .marquee-left, .marquee-right, .float-y { animation: none; }
 }
+
+/* Chinese: CJK glyphs need less letter-spacing than uppercase Latin. */
+html[lang^="zh"] .eyebrow,
+html[lang^="zh"] .btn { letter-spacing: 0.12em; }
+html[lang^="zh"] .font-display { letter-spacing: 0.02em; }

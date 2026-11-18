@@ -17,6 +17,7 @@ export default function CakesPage() {
     <>
       <RotatingHero
         label="Celebration cakes"
+        labelZh="庆典蛋糕"
         slides={cakeSlides}
         background="/images/hero/powder-blue-bakery-hero-backdrop-1.jpg"
       />

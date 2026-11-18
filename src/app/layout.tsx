@@ -7,6 +7,7 @@ import CartDrawer from "@/components/shop/CartDrawer";
 import Preloader from "@/components/Preloader";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { site } from "@/data/site";
+import { LangSync } from "@/lib/i18n";
 
 // Headlines: bold geometric sans. Body and nav stay in Jost.
 const montserrat = Montserrat({
@@ -43,6 +44,7 @@ export default function RootLayout({
     <html lang="en" className={`${montserrat.variable} ${jost.variable}`} suppressHydrationWarning>
       {/* Browser extensions (e.g. Grammarly) inject attributes here before React loads; ignore those diffs. */}
       <body className="min-h-screen flex flex-col" suppressHydrationWarning>
+        <LangSync />
         <Preloader />
         <Header />
         <main className="flex-1">{children}</main>

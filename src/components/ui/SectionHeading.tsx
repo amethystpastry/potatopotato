@@ -7,9 +7,9 @@ export default function SectionHeading({
   align = "center",
   light = false,
 }: {
-  eyebrow?: string;
-  title: string;
-  sub?: string;
+  eyebrow?: React.ReactNode;
+  title: React.ReactNode;
+  sub?: React.ReactNode;
   align?: "center" | "left";
   light?: boolean;
 }) {

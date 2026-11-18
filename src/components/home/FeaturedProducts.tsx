@@ -4,6 +4,7 @@ import ProductCard from "../shop/ProductCard";
 import Reveal from "../ui/Reveal";
 import { queue } from "@/lib/queue";
 import { featured } from "@/lib/products";
+import { T } from "@/lib/i18n";
 
 export default function FeaturedProducts() {
   const items = featured().slice(0, 8);
@@ -18,8 +19,8 @@ export default function FeaturedProducts() {
           ))}
         </div>
         <div className="mt-14 flex justify-center gap-3">
-          <Link href="/cakes" className="btn btn-primary">All cakes</Link>
-          <Link href="/pastries" className="btn btn-outline">All pastries <ArrowRight size={14} /></Link>
+          <Link href="/cakes" className="btn btn-primary"><T en="All cakes" zh="全部蛋糕" /></Link>
+          <Link href="/pastries" className="btn btn-outline"><T en="All pastries" zh="全部糕点" /> <ArrowRight size={14} /></Link>
         </div>
       </div>
     </section>

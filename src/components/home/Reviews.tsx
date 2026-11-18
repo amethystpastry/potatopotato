@@ -3,6 +3,7 @@ import Marquee from "../ui/Marquee";
 import Reveal from "../ui/Reveal";
 import { reviews, type Review } from "@/data/reviews";
 import { site } from "@/data/site";
+import { T } from "@/lib/i18n";
 
 function GoogleMark({ size = 18 }: { size?: number }) {
   return (
@@ -38,7 +39,7 @@ function Card({ r }: { r: Review }) {
       </div>
       <p className="mt-4 text-[0.95rem] leading-relaxed text-ink/80 line-clamp-5">{r.text}</p>
       <p className="mt-5 inline-flex items-center gap-1.5 text-[0.65rem] tracking-[0.2em] uppercase text-muted">
-        <BadgeCheck size={14} className="text-[#34A853]" /> Verified Google review
+        <BadgeCheck size={14} className="text-[#34A853]" /> <T en="Verified Google review" zh="Google 真实评价" />
       </p>
     </article>
   );
@@ -51,13 +52,13 @@ export default function Reviews() {
     <section className="bg-cream py-24 md:py-32 overflow-hidden">
       <Reveal className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div>
-          <p className="eyebrow mb-4">Loved by Singapore</p>
+          <p className="eyebrow mb-4"><T en="Loved by Singapore" zh="深受新加坡顾客喜爱" /></p>
           <h2 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight">
-            What our customers <em className="italic">are saying</em>
+            <T en={<>What our customers <em className="italic">are saying</em></>} zh={<>听听<em>顾客怎么说</em></>} />
           </h2>
         </div>
         <a href={site.googleMapsUrl} target="_blank" rel="noreferrer" className="btn btn-outline">
-          <GoogleMark size={16} /> Read all on Google
+          <GoogleMark size={16} /> <T en="Read all on Google" zh="在 Google 查看全部" />
         </a>
       </Reveal>
 
