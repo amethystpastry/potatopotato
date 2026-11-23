@@ -117,7 +117,7 @@ export async function POST(req: Request) {
               { label: "Vanilla", value: "vanilla" },
               { label: "Chocolate", value: "chocolate" },
               { label: "Pandan", value: "pandan" },
-              { label: "Red velvet", value: "red_velvet" },
+              { label: "Red velvet", value: "redvelvet" },
               { label: "Oreo", value: "oreo" },
             ],
           },
@@ -130,8 +130,12 @@ export async function POST(req: Request) {
     });
     return NextResponse.json({ url: session.url });
   } catch (e) {
-    const message = e instanceof Error ? e.message : "Stripe error";
-    return NextResponse.json({ error: message }, { status: 500 });
+    // Log Stripe's technical message for us; show customers a plain one.
+    console.error("[checkout]", e instanceof Error ? e.message : e);
+    return NextResponse.json(
+      { error: "Checkout is unavailable right now. Please try again, or WhatsApp us to order." },
+      { status: 500 },
+    );
   }
 }
 
